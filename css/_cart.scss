@@ -1,0 +1,49 @@
+table {
+  width: 100%;
+  padding: 5px;
+  tr {
+      th {
+        background: rgb(143, 204, 219);
+          padding: 10px;
+          
+        }
+    }
+    tr {
+        td {
+        background: rgb(143, 219, 191);
+      text-align: center;
+      padding: 4px;
+      width: 100px;
+      a{
+display: flex;
+margin: 5px auto;
+width: max-content;
+      }
+      img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+      }
+      input {
+        width: 50px;
+        height: 30px;
+        outline: none;
+        padding: 5px;
+      }
+      .update {
+        width: 100px;
+        height: 30px;
+        border: none;
+        background: rgb(92, 92, 92);
+        color: aliceblue;
+      }
+      a {
+        text-decoration: none;
+        color: rgb(228, 228, 228);
+        background: rgb(48, 48, 48);
+        padding: 10px;
+        border-radius: 5px;
+      }
+    }
+  }
+}

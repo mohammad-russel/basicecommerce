@@ -1,0 +1,15 @@
+.catagory{
+    display: flex;
+    justify-content: center;
+    
+    .box{
+        padding: 7px;
+        border: 1px solid rgb(87, 87, 87);
+        margin: 5px;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: rgb(45, 45, 45);
+        cursor: pointer;
+    }
+}
